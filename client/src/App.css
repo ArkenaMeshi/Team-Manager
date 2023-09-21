@@ -1,0 +1,65 @@
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  list-style: none;
+  padding-right: 10px;
+  font-size: 2rem
+}
+
+.player-list-table,
+.add-player {
+  border: 1px solid #cccccc;
+}
+
+.player-list-table table {
+  width: 100%;
+}
+
+.player-list-table,
+.player-list-table th,
+.player-list-table td {
+  border: 1px solid white;
+}
+
+.player-list-table tr {
+  text-align: center;
+}
+
+.add-player form button {
+  padding: 5px 40px;
+  background-color: #009e0f;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 3px solid #000000;
+  box-shadow: 3px 5px #000000;
+}
+
+.add-player form button:disabled,
+button[disabled] {
+  padding: 5px 40px;
+  background-color: gray;
+  color: #000000;
+}
+
+.validation-errors {
+  color: #d2362f;
+}
+
+.playing {
+  background-color: #009e0f;
+}
+
+.not-playing {
+  background-color: #d2362f;
+}
+
+.undecided {
+  background-color: rgb(235, 235, 217);
+  color: black;
+}
+.delete{
+  background-color: rgb(219, 78, 78)!important;
+  color: white !important;
+}
